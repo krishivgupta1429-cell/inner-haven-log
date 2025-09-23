@@ -27,6 +27,9 @@ const Navigation = () => {
             <a href="#about" className="text-muted-foreground hover:text-foreground transition-smooth">
               About
             </a>
+            <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-smooth">
+              Contact
+            </Link>
             <Button variant="ghost" size="sm">
               Sign In
             </Button>
@@ -62,6 +65,9 @@ const Navigation = () => {
               <a href="#about" className="text-muted-foreground hover:text-foreground transition-smooth">
                 About
               </a>
+              <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-smooth">
+                Contact
+              </Link>
               <div className="flex flex-col space-y-2 pt-2">
                 <Button variant="ghost" size="sm">
                   Sign In
