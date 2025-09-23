@@ -30,9 +30,11 @@ const Navigation = () => {
             <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-smooth">
               Contact
             </Link>
-            <Button variant="ghost" size="sm">
-              Sign In
-            </Button>
+            <Link to="/signin">
+              <Button variant="ghost" size="sm">
+                Sign In
+              </Button>
+            </Link>
             <Link to="/dashboard">
               <Button variant="hero" size="sm">
                 Get Started
@@ -69,9 +71,11 @@ const Navigation = () => {
                 Contact
               </Link>
               <div className="flex flex-col space-y-2 pt-2">
-                <Button variant="ghost" size="sm">
-                  Sign In
-                </Button>
+                <Link to="/signin">
+                  <Button variant="ghost" size="sm" className="w-full">
+                    Sign In
+                  </Button>
+                </Link>
                 <Link to="/dashboard">
                   <Button variant="hero" size="sm" className="w-full">
                     Get Started
